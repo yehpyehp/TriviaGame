@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>
+    <title>Trivia Game</title>
+
+</head>
+<body>
+	<div id="Header">
+		Pokemon Quiz!
+	</div>
+	<div class="triviacontent">
+		<div class="col-sm-12" id="timeremain">
+			Time Remaining: 60 seconds
+		</div><br>
+		<div class = col-sm-12 id="question1">
+			<form>
+				Which type is effective against fire type pokemons?<br>
+  				<input type="radio" name="q" value="water"> Water<br>
+ 				<input type="radio" name="q" value="grass"> Grass<br>
+  				<input type="radio" name="q" value="psychic"> Psychic
+			</form>
+		</div><br>
+		<div class = "col-sm-12" id="question2">
+			<form>
+				How effective is Dragon type against Fairy type?<br>
+  				<input type="radio" name="q" value="2x"> 2X Effective<br>
+ 				<input type="radio" name="q" value="1x"> 1X Effective<br>
+  				<input type="radio" name="q" value="0x"> 0X Effective
+			</form>
+		</div><br>
+		<div class = "col-sm-12" id="question3">
+			<form>
+				Which of the pokemon move below is a physical attack move?<br>
+  				<input type="radio" name="q" value="firespin"> Fire Spin<br>
+ 				<input type="radio" name="q" value="sworddance"> Sword Dance<br>
+  				<input type="radio" name="q" value="flamecharge"> Flame Charge
+			</form>
+		</div><br>
+		<div class = "col-sm-12" id="question4">
+			<form>
+				What kind of item prevents the pokemon from falling asleep?<br>
+  				<input type="radio" name="q" value="choiceband"> Choice Band<br>
+ 				<input type="radio" name="q" value="chesto"> Chesto Berry<br>
+  				<input type="radio" name="q" value="lifeorb"> Life Orb
+			</form>
+		</div><br>
+		<div class = "col-sm-12" id="question5">
+			<form>
+				Which pokemon has the ability "Flashfire"?<br>
+  				<input type="radio" name="q" value="houndoom"> Houndoom<br>
+ 				<input type="radio" name="q" value="magmar"> Magmar<br>
+  				<input type="radio" name="q" value="charizard"> Charizard
+			</form>
+		</div>	<br>
+		<div class = "col-sm-12" id="question6">
+			<form>
+				What does the ability "No Guard" do?<br>
+  				<input type="radio" name="q" value="lowerdef" > Makes User two stages lower in defense while doubling attack stat<br>
+ 				<input type="radio" name="q" value="nevermiss"> Makes the User moves hit 100% of the time, but gets hit with 100% accuracy as well<br>
+  				<input type="radio" name="q" value="ignore"> Ignores defense stat of the opponent pokemon
+			</form>
+		</div><br>
+		<div class = "col-sm-12" id="question7">
+			<form>
+				What is the pokemon "Shedinja" usually picked for?<br>
+  				<input type="radio" name="q" value="stat"> Its unique stat distribution and monster attack stat which makes it really offensive<br>
+ 				<input type="radio" name="q" value="widerange"> Its wide pool of special moves that makes for wonderful converage<br>
+  				<input type="radio" name="q" value="immune"> Its ability "Wonder Guard" that makes it immune against many types of moves
+			</form>
+		</div><br>
+		<div class = "col-sm-12" id="question8">
+			<form>
+				Which is the following is True?<br>
+  				<input type="radio" name="q" value="snorlax"> Despite being a normal type, Snorlax can learn the dark type move "Crunch"<br>
+ 				<input type="radio" name="q" value="sleeper"> The ability "Sleeper" recovers the user's hp by 25% while being asleep<br>
+  				<input type="radio" name="q" value="leftovers"> The Item "Leftovers" allows the User to collect the scrap item of the opponent pokemon and consume them for hp
+			</form>
+		</div><br>
+	</div>
+	<div class = "col-sm-12" id="startdiv">
+	<button id="start">Start</button>
+	</div>
+	<div class = "col-sm-12" id="submitdiv">
+	<button id="submit">Submit</button>
+	</div>
+	<div class = "col-sm-12" id="unanswered">
+	</div>
+	<div class = "col-sm-12" id="correct">
+	</div>
+	<div class = "col-sm-12" id="wrong">
+	</div>
+	<div class = "col-sm-12" id="restartdiv">
+	<button id="restart">Restart</button>
+	</div>
+	<div class = "col-sm-12" id="footer">
+
+	</div>
+</body>
+</html>

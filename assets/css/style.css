@@ -1,0 +1,37 @@
+body{
+	background-image: url("../images/background.jpg");
+	background-size:cover;
+}
+#Header{
+	font-size:50px;
+	text-align: center;
+}
+#timeremain{
+	font-size: 40px;
+	text-align: center;
+}
+.col-sm-12{
+	font-family: 'Patrick Hand', cursive;
+	font-size:24px;
+}
+#footer{
+	height:300px;
+}
+#submitdiv{
+	text-align:center;
+}
+#startdiv{
+	text-align:center;
+}
+#unanswered{
+	text-align:center;
+}
+#correct{
+	text-align:center;
+}
+#wrong{
+	text-align:center;
+}
+#restartdiv{
+	text-align:center;
+}
